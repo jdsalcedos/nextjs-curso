@@ -1,8 +1,12 @@
-import PostCard from "../../components/PostCard";
+import PostCard from "@/components/PostCard";
 
 async function loadPosts() {
   const res = await fetch("https://jsonplaceholder.typicode.com/posts");
   const data = await res.json();
+
+  //le pone delay a la respuesta (promesa) con el setTimeout
+  //en este caso sirve para simular posibles tiempos de espera
+  //await new Promise((resolve) => setTimeout(resolve, 5000));
   return data;
 }
 

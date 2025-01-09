@@ -4,9 +4,9 @@
 import { useEffect } from "react";
 
 function Users() {
-  useEffect(() => {
-    alert("loaded"); //funciona porque esta siendo llamado desde HomePage y ahi esta el 'use client'
-  }, []);
+  // useEffect(() => {
+  //   alert("loaded"); //funciona porque esta siendo llamado desde HomePage y ahi esta el 'use client'
+  // }, []);
 
   return <div>Users</div>;
 }
