@@ -1,5 +1,6 @@
 import Navbar from "../components/Navbar";
 import { Roboto } from "next/font/google"; //importar las fuentes de Google
+import "./globals.css";
 
 export const metadata = {
   title: "Mi tienda con Next",
